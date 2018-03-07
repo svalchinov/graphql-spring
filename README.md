@@ -1,4 +1,4 @@
-# Graphql Spring Boot boilerplate
+# Graphql and Spring Boot
 
 POST localhost:9000/graphql
 
