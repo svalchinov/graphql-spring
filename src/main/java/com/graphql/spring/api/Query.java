@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 public class Query implements GraphQLQueryResolver {
   
   public User getUser() {
-    return new User("My user");
+    return new User("Hello world");
   }
   
-  public long countUsers() {
-    return 1L;
+  public int countUsers() {
+    return 1;
   }
 }
