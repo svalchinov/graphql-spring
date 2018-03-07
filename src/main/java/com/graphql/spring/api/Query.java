@@ -6,10 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Query implements GraphQLQueryResolver {
   
-  public User getUser(String id) {
-    User user = new User();
-    user.setName( "My user" );
-    return user;
+  public User getUser() {
+    return new User("My user");
   }
   
   public long countUsers() {
