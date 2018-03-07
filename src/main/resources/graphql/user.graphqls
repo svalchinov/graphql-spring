@@ -1,0 +1,9 @@
+type User {
+    name: String!
+}
+
+type Query {
+    user(id: String!): User!
+    countUsers: Long!
+}
+
